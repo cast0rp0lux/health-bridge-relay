@@ -9,6 +9,10 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,3 +25,44 @@ jobs:
           test -n "$FIREBASE_PROJECT_ID"
           test -n "$FIREBASE_SERVICE_ACCOUNT_JSON"
           echo "Relay configuration present."
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}'
+
+      - name: Send nutrition to Firebase Cloud Messaging
+        env:
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FCM_TOPIC: healthbridge-alberto
+        run: |
+          ACCESS_TOKEN="$(gcloud auth print-access-token)"
+
+          for FILE in inbox/*.json; do
+            [ -f "$FILE" ] || continue
+
+            echo "Sending $FILE to FCM..."
+
+            PAYLOAD="$(jq -c --arg topic "$FCM_TOPIC" '
+              {
+                message: {
+                  topic: $topic,
+                  data: (
+                    to_entries
+                    | map({key: .key, value: (.value | tostring)})
+                    | from_entries
+                  )
+                }
+              }
+            ' "$FILE")"
+
+            curl --fail-with-body --silent --show-error \
+              -X POST \
+              -H "Authorization: Bearer $ACCESS_TOKEN" \
+              -H "Content-Type: application/json; UTF-8" \
+              "https://fcm.googleapis.com/v1/projects/$FIREBASE_PROJECT_ID/messages:send" \
+              -d "$PAYLOAD"
+
+            echo
+            echo "Sent $FILE successfully."
+          done
