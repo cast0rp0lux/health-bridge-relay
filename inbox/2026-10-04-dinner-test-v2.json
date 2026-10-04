@@ -1,0 +1,14 @@
+{
+  "type": "nutrition",
+  "name": "Prueba Health Bridge dinner",
+  "kcal": "1",
+  "protein": "0",
+  "carbs": "0",
+  "fat": "0",
+  "fiber": "0",
+  "sugar": "0",
+  "sodium_mg": "0",
+  "meal": "dinner",
+  "ts": "1791142522282",
+  "id": "20261004-dinner-v2"
+}
