@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - "inbox/*.json"
-  workflow_dispatch:
 
 jobs:
   send:
@@ -16,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Validate relay configuration
         env:
@@ -31,17 +32,31 @@ jobs:
         with:
           credentials_json: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}'
 
-      - name: Send nutrition to Firebase Cloud Messaging
+      - name: Send only changed nutrition JSON files
         env:
           FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
           FCM_TOPIC: healthbridge-alberto
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
         run: |
+          set -euo pipefail
           ACCESS_TOKEN="$(gcloud auth print-access-token)"
 
-          for FILE in inbox/*.json; do
-            [ -f "$FILE" ] || continue
+          # Only send JSON files changed in this push. Never replay the whole inbox.
+          if [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            mapfile -t FILES < <(git diff-tree --no-commit-id --name-only -r "$CURRENT_SHA" -- 'inbox/*.json')
+          else
+            mapfile -t FILES < <(git diff --name-only --diff-filter=ACMRT "$BEFORE_SHA" "$CURRENT_SHA" -- 'inbox/*.json')
+          fi
 
-            echo "Sending $FILE to FCM..."
+          if [ "${#FILES[@]}" -eq 0 ]; then
+            echo "No changed nutrition JSON files to send."
+            exit 0
+          fi
+
+          for FILE in "${FILES[@]}"; do
+            [ -f "$FILE" ] || continue
+            echo "Sending changed file $FILE to FCM..."
 
             PAYLOAD="$(jq -c --arg topic "$FCM_TOPIC" '
               {
