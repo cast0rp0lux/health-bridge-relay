@@ -1,0 +1,14 @@
+{
+  "type": "nutrition",
+  "name": "Hamburguesa con patatas cocidas",
+  "kcal": "963",
+  "protein": "49.2",
+  "carbs": "83",
+  "fat": "48.8",
+  "fiber": "5.3",
+  "sugar": "11",
+  "sodium_mg": "1800",
+  "meal": "dinner",
+  "ts": "1791714420000",
+  "id": "20261011-dinner-hamburguesa-patatas"
+}
