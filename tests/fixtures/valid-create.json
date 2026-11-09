@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "f31ab09c-9f92-4bf7-9f69-43ea23fc3b8c",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "nutrition-20261109-lunch-001",
+  "name": "Comida de prueba",
+  "kcal": "600",
+  "protein": "50",
+  "carbs": "40",
+  "fat": "20",
+  "meal": "almuerzo",
+  "ts": "1794229200000"
+}

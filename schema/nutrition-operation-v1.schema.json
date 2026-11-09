@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Health Bridge nutrition operation v1",
+  "oneOf": [
+    {
+      "title": "Create nutrition record",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "operationId", "operationType", "type", "id", "name", "kcal", "protein", "carbs", "fat", "meal", "ts"],
+      "properties": {
+        "schemaVersion": { "const": "1" },
+        "operationId": { "type": "string", "format": "uuid" },
+        "operationType": { "const": "create" },
+        "type": { "const": "nutrition" },
+        "id": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "minLength": 1, "maxLength": 250 },
+        "kcal": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "protein": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "carbs": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "fat": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "fiber": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "sugar": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "sodium_mg": { "$ref": "#/$defs/nonNegativeDecimal" },
+        "meal": { "enum": ["breakfast", "desayuno", "lunch", "comida", "almuerzo", "dinner", "cena", "snack"] },
+        "ts": { "type": "string", "pattern": "^[0-9]+$" }
+      }
+    },
+    {
+      "title": "Delete a prior nutrition operation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "operationId", "operationType", "targetOperationId", "type"],
+      "properties": {
+        "schemaVersion": { "const": "1" },
+        "operationId": { "type": "string", "format": "uuid" },
+        "operationType": { "const": "delete" },
+        "targetOperationId": { "type": "string", "format": "uuid" },
+        "type": { "const": "nutrition" }
+      }
+    }
+  ],
+  "$defs": {
+    "nonNegativeDecimal": { "type": "string", "pattern": "^(0|[0-9]+)(\\.[0-9]+)?$" }
+  }
+}
