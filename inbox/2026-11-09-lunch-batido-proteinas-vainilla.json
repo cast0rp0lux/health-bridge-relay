@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "31c9b50f-619c-4599-88f9-d37490a66dde",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "meal-2026-11-09-lunch-protein-shake-01",
+  "name": "Batido lácteo sabor vainilla +Proteínas Hacendado 330 ml",
+  "kcal": "153",
+  "protein": "30",
+  "carbs": "6.6",
+  "fat": "0.7",
+  "meal": "comida",
+  "ts": "1794229200000"
+}
