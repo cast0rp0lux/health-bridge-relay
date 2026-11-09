@@ -56,6 +56,7 @@ jobs:
 
           for FILE in "${FILES[@]}"; do
             [ -f "$FILE" ] || continue
+            bash tests/validate-nutrition-operation-v1.sh "$FILE"
             echo "Sending changed file $FILE to FCM..."
 
             PAYLOAD="$(jq -c --arg topic "$FCM_TOPIC" '

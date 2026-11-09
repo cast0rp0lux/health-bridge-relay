@@ -3,3 +3,7 @@
 *.json
 google-services.json
 service-account*.json
+
+# Versioned contract and its non-sensitive test fixtures.
+!schema/nutrition-operation-v1.schema.json
+!tests/fixtures/*.json
