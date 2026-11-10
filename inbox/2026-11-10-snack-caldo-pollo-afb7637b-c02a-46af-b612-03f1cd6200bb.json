@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "afb7637b-c02a-46af-b612-03f1cd6200bb",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "snack-2026-11-10-caldo-pollo-01",
+  "name": "Caldo de pollo Hacendado (500 ml)",
+  "kcal": "55",
+  "protein": "2",
+  "carbs": "2.5",
+  "fat": "4",
+  "meal": "snack",
+  "ts": "1794347280000"
+}
