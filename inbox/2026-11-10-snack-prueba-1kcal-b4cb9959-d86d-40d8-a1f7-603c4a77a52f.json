@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "b4cb9959-d86d-40d8-a1f7-603c4a77a52f",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "snack-prueba-1kcal-2026-11-10",
+  "name": "Prueba automática (1 kcal)",
+  "kcal": "1",
+  "protein": "0",
+  "carbs": "0",
+  "fat": "0",
+  "meal": "snack",
+  "ts": "1794347758000"
+}
