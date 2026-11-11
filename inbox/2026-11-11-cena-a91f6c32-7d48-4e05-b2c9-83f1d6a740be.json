@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "a91f6c32-7d48-4e05-b2c9-83f1d6a740be",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "d7a42e91-5c63-48b0-9f21-6e8d3a75c104",
+  "name": "Hamburguesa con patatas cocidas y postre de yogur con whey",
+  "kcal": "1241",
+  "protein": "93.8",
+  "carbs": "110.1",
+  "fat": "47.6",
+  "meal": "cena",
+  "ts": "1794427200000"
+}
