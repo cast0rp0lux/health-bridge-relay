@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7b2e9d41-6c83-4f15-9a72-d0e5b3c8f641",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b4d8a2f1-7c65-49e3-8a10-2f6c9d5e7134",
+  "name": "Sándwich de pan sarraceno con jamón York y queso, y salmorejo cordobés",
+  "kcal": "586",
+  "protein": "27.7",
+  "carbs": "43.8",
+  "fat": "31.6",
+  "meal": "lunch",
+  "ts": "1794400950000"
+}
