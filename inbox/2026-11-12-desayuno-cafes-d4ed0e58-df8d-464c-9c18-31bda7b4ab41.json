@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "d4ed0e58-df8d-464c-9c18-31bda7b4ab41",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "7d9edcf1-5f4c-428c-a503-8806502c8ccc",
+  "name": "3 cafés con leche",
+  "kcal": "228",
+  "protein": "15.3",
+  "carbs": "23.8",
+  "fat": "7.9",
+  "meal": "desayuno",
+  "ts": "1794470629000"
+}
