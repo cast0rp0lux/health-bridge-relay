@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "d3a81f6c-9b42-4e75-a1c8-6f20b9e4d753",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c8e2a5f1-7d39-4b60-9a14-2f6c8e3d7051",
+  "name": "Dos salchichas Gourmet Hacendado con patata cocida y salsa Gajo Rústica",
+  "kcal": "1146",
+  "protein": "48.9",
+  "carbs": "63.4",
+  "fat": "78.0",
+  "meal": "comida",
+  "ts": "1794491177000"
+}
