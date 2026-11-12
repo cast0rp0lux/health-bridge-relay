@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "e72b6c91-4a35-4d8f-9c21-7b5e3a60f184",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c3f8a2d5-91e4-4b67-a0c2-6d9f5e1b7384",
+  "name": "Sándwich de pan sarraceno con jamón York y cottage, yogur con whey HSN y avena",
+  "kcal": "570",
+  "protein": "57.3",
+  "carbs": "52.1",
+  "fat": "13.4",
+  "meal": "cena",
+  "ts": "1794513600000"
+}
