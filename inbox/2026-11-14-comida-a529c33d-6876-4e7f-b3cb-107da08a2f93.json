@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "a529c33d-6876-4e7f-b3cb-107da08a2f93",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "687d0189-b126-402a-ad1b-4fd7b7c1adfd",
+  "name": "Comida",
+  "kcal": "445.84",
+  "protein": "49.49",
+  "carbs": "35.75",
+  "fat": "10.168",
+  "meal": "lunch",
+  "ts": "1794661200000"
+}
