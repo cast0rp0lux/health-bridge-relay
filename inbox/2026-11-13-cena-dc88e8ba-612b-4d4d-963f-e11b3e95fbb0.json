@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "dc88e8ba-612b-4d4d-963f-e11b3e95fbb0",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "9bbc9678-93ac-49f9-a5ab-8a5eadafa5ef",
+  "name": "Cena",
+  "kcal": "167.6",
+  "protein": "27.25",
+  "carbs": "1.79",
+  "fat": "5.88",
+  "meal": "dinner",
+  "ts": "1794600000000"
+}
