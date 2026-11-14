@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "68671499-7f16-4439-88cf-43ee441affd7",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "49253fab-6f0f-422e-8d48-67f929b94b6b",
+  "name": "Desayuno",
+  "kcal": "151.8",
+  "protein": "10.23",
+  "carbs": "15.84",
+  "fat": "5.28",
+  "meal": "breakfast",
+  "ts": "1794639600000"
+}
