@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "9d2a6c41-7e83-4b5f-a190-6c2e8f34b751",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b7f1d9a3-2c64-4e80-9a15-6d3b8f20c547",
+  "name": "Cena: papardelle con jamón y ajo; yogur con whey, avena, muesli y plátano",
+  "kcal": "1293.3",
+  "protein": "82.95",
+  "carbs": "191.605",
+  "fat": "20.46",
+  "meal": "dinner",
+  "ts": "1794686400000"
+}
