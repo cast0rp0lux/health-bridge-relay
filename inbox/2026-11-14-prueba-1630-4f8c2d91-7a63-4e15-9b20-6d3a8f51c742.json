@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "4f8c2d91-7a63-4e15-9b20-6d3a8f51c742",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a7d3e9c2-5f14-4b86-9c21-8e6f2a0d5b73",
+  "name": "Prueba de comida 16:30",
+  "kcal": "1293.3",
+  "protein": "82.95",
+  "carbs": "191.605",
+  "fat": "20.46",
+  "meal": "snack",
+  "ts": "1794670200000"
+}
