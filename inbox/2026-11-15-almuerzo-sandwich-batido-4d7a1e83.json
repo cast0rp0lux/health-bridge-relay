@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "4d7a1e83-2b95-4c60-8f31-7a6e0d9b5248",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a6e2c913-7d40-4b85-9f21-3c8a5e0d7146",
+  "name": "Sándwich de lomo y batido de proteínas",
+  "kcal": "439.95",
+  "protein": "54.39",
+  "carbs": "34.7875",
+  "fat": "8.179",
+  "meal": "lunch",
+  "ts": "1794747600000"
+}
