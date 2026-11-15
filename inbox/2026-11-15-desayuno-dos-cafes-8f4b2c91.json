@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "8f4b2c91-6d32-4e7a-9a15-2c6f0b8d4137",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c4a91e72-5b30-4f86-8d21-7e3a9c0b6254",
+  "name": "Dos cafés con leche",
+  "kcal": "151.8",
+  "protein": "10.23",
+  "carbs": "15.84",
+  "fat": "5.28",
+  "meal": "breakfast",
+  "ts": "1794729600000"
+}
