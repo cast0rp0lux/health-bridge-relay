@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "b6c3f209-8a41-4d75-9c20-1e7f3a6b5824",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "d8f2a614-9c30-47b1-8e65-2a9d0c7f4138",
+  "name": "Ensalada de alubias y postre de cottage con proteína, plátano y crunchy",
+  "kcal": "1070.574",
+  "protein": "67.34",
+  "carbs": "110.3",
+  "fat": "37.204",
+  "meal": "dinner",
+  "ts": "1794772800000"
+}
