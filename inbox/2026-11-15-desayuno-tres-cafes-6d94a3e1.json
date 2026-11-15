@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "6d94a3e1-5c72-4f08-9b31-2e7a6c8d1045",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b1e7c4a9-2d63-48f0-a815-9c3e6b2d7041",
+  "name": "Tres cafés con leche",
+  "kcal": "227.7",
+  "protein": "15.345",
+  "carbs": "23.76",
+  "fat": "7.92",
+  "meal": "breakfast",
+  "ts": "1794729600000"
+}
