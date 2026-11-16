@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7a4e9c21-5d83-4b60-8f17-2c6d0a9e534b",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b62f8d31-0a75-4c92-9e16-3f8a1d5c7042",
+  "name": "Almuerzo: arroz blanco con pollo en salsa, pan y natillas caseras",
+  "kcal": "856",
+  "protein": "48.8",
+  "carbs": "103.8",
+  "fat": "25.6",
+  "meal": "lunch",
+  "ts": "1794840060000"
+}
