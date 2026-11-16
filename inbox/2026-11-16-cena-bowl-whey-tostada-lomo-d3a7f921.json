@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "d3a7f921-6c84-4b50-9e12-8f5c2a1d7046",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "e5b2c813-9d46-4a70-b1f5-6c3e8a2d9174",
+  "name": "Cena: bowl de yogur con whey y fruta, tostada de lomo y tomate",
+  "kcal": "606",
+  "protein": "54.2",
+  "carbs": "69.4",
+  "fat": "13.2",
+  "meal": "dinner",
+  "ts": "1794859200000"
+}
