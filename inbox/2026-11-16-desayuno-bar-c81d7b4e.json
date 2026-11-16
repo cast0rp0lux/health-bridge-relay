@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "c81d7b4e-2f96-4a13-9e85-6c0b2d7f419a",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "f19a6c32-8d54-4e71-a0b6-3c92f5d81720",
+  "name": "Desayuno de bar: pan con salmorejo y aceite, café con leche",
+  "kcal": "538.7",
+  "protein": "15.1",
+  "carbs": "69.4",
+  "fat": "22.34",
+  "meal": "breakfast",
+  "ts": "1794816000000"
+}
