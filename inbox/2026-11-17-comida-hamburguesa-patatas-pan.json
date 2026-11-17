@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "a41d8c72-5f39-4b06-9e21-7c3a0d8f6254",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c93e7a15-2b64-48d0-a5f1-8e6c3d9b7021",
+  "name": "Comida: hamburguesa con queso y bacon, patatas y pan",
+  "kcal": "1050",
+  "protein": "47",
+  "carbs": "105",
+  "fat": "48",
+  "meal": "lunch",
+  "ts": "1794910800000"
+}
