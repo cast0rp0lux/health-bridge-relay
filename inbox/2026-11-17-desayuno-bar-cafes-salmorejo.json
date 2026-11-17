@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7f3c2a91-8d64-4b20-ae51-6c9f0d2b7384",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b82d6e41-5a93-4f70-9c26-1d8a3e5b7042",
+  "name": "Desayuno: dos cafés con leche y dos medias barritas con salmorejo",
+  "kcal": "531.8",
+  "protein": "20.2",
+  "carbs": "77.3",
+  "fat": "15.9",
+  "meal": "breakfast",
+  "ts": "1794892800000"
+}
