@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "b7e31a92-6c45-4d80-9f12-a5c8e2d70463",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "d2a9f641-8b37-4e50-a6c1-3f9d7b2e8054",
+  "name": "Cena: yogur griego ligero con banana, muesli, avena, pipas de calabaza, whey, leche desnatada y queso cottage",
+  "kcal": "718",
+  "protein": "64.6",
+  "carbs": "68.7",
+  "fat": "21",
+  "meal": "dinner",
+  "ts": "1795039200000"
+}
