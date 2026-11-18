@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "e62a4c91-7b35-4d08-a1f6-9c2e5b7d3048",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "d71b3e85-9a42-46c0-b8f1-2e5d7a3c9016",
+  "name": "Cena: pizza casera con masa fresca, salsa napolitana, queso, atún y jamón York",
+  "kcal": "986",
+  "protein": "58",
+  "carbs": "133",
+  "fat": "28",
+  "meal": "dinner",
+  "ts": "1794936000000"
+}
