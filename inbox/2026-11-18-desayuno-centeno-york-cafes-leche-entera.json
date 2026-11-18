@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "4b8e2f61-9c35-4a70-bd12-6e5f3a8c9017",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a72d9c41-5e83-4b16-8f20-3c6a1d9e7052",
+  "name": "Desayuno: tostada de centeno con jamón York y aceite, dos cafés con leche entera",
+  "kcal": "545",
+  "protein": "27",
+  "carbs": "55",
+  "fat": "25",
+  "meal": "breakfast",
+  "ts": "1794988800000"
+}
