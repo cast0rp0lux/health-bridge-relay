@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "9f6c2a81-4d73-4b15-8e20-7a3c5d9b1046",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c4a8e2d1-7f35-4b90-9c61-2d8e5a3f7041",
+  "name": "Comida: pechuga de pollo a la plancha y patata cocida",
+  "kcal": "426",
+  "protein": "40.2",
+  "carbs": "60.3",
+  "fat": "2.1",
+  "meal": "lunch",
+  "ts": "1795010400000"
+}
