@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "9c2e7a41-6b85-4d30-a1f9-5e8c3b702614",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "d4a8f261-7c35-4e90-b2d6-1f9a5c803742",
+  "name": "Sandwich de pan de avena y trigo sarraceno con York y queso; yogur con cottage, whey, frambuesas y crunchy",
+  "kcal": "702",
+  "protein": "61.1",
+  "carbs": "57.7",
+  "fat": "23.2",
+  "meal": "dinner",
+  "ts": "1795118400000"
+}
