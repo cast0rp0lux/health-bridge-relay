@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "6d4b9f21-8a73-4c50-b2e6-1f9a7d3c8052",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b8e2a641-5d93-4f70-a1c6-9e3b7d205814",
+  "name": "Puerro con patata y caldo, salmorejo, tostada con lomo",
+  "kcal": "874",
+  "protein": "36.1",
+  "carbs": "128.9",
+  "fat": "23.9",
+  "meal": "lunch",
+  "ts": "1795089600000"
+}
