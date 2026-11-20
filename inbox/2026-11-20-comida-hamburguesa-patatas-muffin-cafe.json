@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "c7a19e42-5d83-4b60-9f21-8a3e6d7c1045",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a6d2f941-8c37-4e50-b1d9-5f7a2c3e8064",
+  "name": "Comida fuera: hamburguesa con guacamole, queso y brioche, patatas fritas, muffin de pistacho y café con leche (estimación)",
+  "kcal": "2406",
+  "protein": "74.1",
+  "carbs": "227.9",
+  "fat": "132.6",
+  "meal": "lunch",
+  "ts": "1795183200000"
+}
