@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "d91a3f72-6c84-4b50-9e12-8f5c2a1d7046",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "e5b2c813-9d46-4a70-b1f5-6c3e8a2d9174",
+  "name": "Cena: banana, yogur griego light, whey, frambuesas y Muesli Crunchy",
+  "kcal": "419",
+  "protein": "37.7",
+  "carbs": "51.2",
+  "fat": "8.5",
+  "meal": "dinner",
+  "ts": "1795212000000"
+}
