@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "3f8c2a71-6d94-4b50-a1e7-9c5d2f804631",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "7a2d9f41-5c83-4b16-8e20-3d6a1f907542",
+  "name": "Comida: preparado de huevo, leche, aceite y maicena al microondas con tostada y cottage (estimación)",
+  "kcal": "295",
+  "protein": "15.3",
+  "carbs": "25.0",
+  "fat": "14.3",
+  "meal": "lunch",
+  "ts": "1795280640000"
+}
