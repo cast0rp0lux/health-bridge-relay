@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7c2a1d84-9f36-4b51-a8e2-6d0c3f7a915b",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "f4b8c2e1-6d93-47a5-b0c8-2e1f9a6d3b74",
+  "name": "Cena: brécol, patata, cottage crema, salchichas Schara, whey, yogur, plátano, frambuesas, muesli y pan",
+  "kcal": "1315.7",
+  "protein": "92.7",
+  "carbs": "135.5",
+  "fat": "47.6",
+  "fiber": "30.2",
+  "meal": "dinner",
+  "ts": "1795291200000"
+}
