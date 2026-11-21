@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "b62e7f41-9c35-4a70-8d12-5f6a3b9e8042",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "c84f2a91-6d53-4b80-ae17-9f3c5d2b7046",
+  "name": "Desayuno: tres cafés con leche semidesnatada",
+  "kcal": "228",
+  "protein": "15.3",
+  "carbs": "23.8",
+  "fat": "7.9",
+  "meal": "breakfast",
+  "ts": "1795249800000"
+}
