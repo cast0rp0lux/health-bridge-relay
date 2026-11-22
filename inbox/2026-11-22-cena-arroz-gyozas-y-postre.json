@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "9b40f86b-e384-4314-a638-365e29004a8e",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "492cea9f-7d9b-4a39-b6b2-e2b150dc6a3f",
+  "name": "Cena y postre: arroz, gyozas Hacendado, yogur griego light, whey, muesli Crunchy y plátano",
+  "kcal": "1166",
+  "protein": "66.1",
+  "carbs": "177.6",
+  "fat": "21.5",
+  "meal": "dinner",
+  "ts": "1795377600000"
+}
