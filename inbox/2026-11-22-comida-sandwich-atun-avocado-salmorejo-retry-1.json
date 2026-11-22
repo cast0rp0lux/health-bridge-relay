@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "20fe8c1e-e40f-4a5d-ab0a-b78a2cea1344",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "e53ab08d-9819-4c73-be9f-ee86f303bf26",
+  "name": "Comida: sándwich de pan integral con atún, tomate y aguacate, más salmorejo Hacendado (cantidades estimadas)",
+  "kcal": "644",
+  "protein": "33.6",
+  "carbs": "53.1",
+  "fat": "32.6",
+  "meal": "lunch",
+  "ts": "1795356000000"
+}
