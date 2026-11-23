@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "f41c8a72-5d39-4b60-9e21-7c3a8d5b1046",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a72c9f41-6d83-4b50-8e12-3f9a5c7d2046",
+  "name": "Desayuno: tostadas con salmorejo, aceite y café con leche (estimado)",
+  "kcal": "457",
+  "protein": "12.8",
+  "carbs": "58.6",
+  "fat": "18.7",
+  "meal": "breakfast",
+  "ts": "1795428000000"
+}
