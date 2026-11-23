@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "6b2f9a41-8d73-4c50-ae16-3f9c5d2b7048",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b83d2f91-6a54-4c70-9e12-5d3f8a2c7046",
+  "name": "Cena/postre: yogur con moras, whey y Crunchy",
+  "kcal": "231",
+  "protein": "37.6",
+  "carbs": "18.9",
+  "fat": "3.9",
+  "meal": "dinner",
+  "ts": "1795464000000"
+}
