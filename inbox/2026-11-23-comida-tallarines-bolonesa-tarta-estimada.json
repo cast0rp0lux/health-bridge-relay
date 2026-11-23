@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7d2a9f41-6c83-4b50-ae17-3f9c5d2b7046",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b84f2a91-6d53-4b80-ae17-9f3c5d2b7046",
+  "name": "Comida: pan, tallarines con boloñesa y tarta de queso (estimación)",
+  "kcal": "1800",
+  "protein": "60",
+  "carbs": "212",
+  "fat": "75",
+  "meal": "lunch",
+  "ts": "1795442400000"
+}
