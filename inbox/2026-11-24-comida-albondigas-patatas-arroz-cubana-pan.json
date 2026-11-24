@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "6a2f9c41-8d73-4b50-ae16-3f9c5d2b7049",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "b7d3f291-6a54-4c70-9e12-5d3f8a2c7049",
+  "name": "Comida: albóndigas con salsa y guisantes, patatas fritas, arroz a la cubana con huevo y pan",
+  "kcal": "1450",
+  "protein": "55",
+  "carbs": "165",
+  "fat": "65",
+  "meal": "lunch",
+  "ts": "1795528800000"
+}
