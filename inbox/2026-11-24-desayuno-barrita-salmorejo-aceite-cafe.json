@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "9d7a1b3e-5c82-4f60-a1d9-3b7e8c2f6041",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "a4c8e2d1-7f35-4b90-9c61-2d8e5a3f7041",
+  "name": "Desayuno: barrita de pan, salmorejo, aceite y café con leche",
+  "kcal": "457",
+  "protein": "12.8",
+  "carbs": "58.6",
+  "fat": "18.7",
+  "meal": "breakfast",
+  "ts": "1795507200000"
+}
