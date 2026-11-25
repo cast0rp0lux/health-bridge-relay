@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "c2e4a81f-5b73-4d90-8f26-1a6c3e7d9054",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-25-lunch-sandwich-salmorejo",
+  "name": "Comida: sándwich de pan, York, queso semicurado, cottage y salmorejo",
+  "kcal": "638",
+  "fat": "26.5",
+  "protein": "32",
+  "carbs": "63.4",
+  "meal": "lunch",
+  "ts": "1795615200000"
+}
