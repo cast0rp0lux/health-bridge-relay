@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "91b6c2e4-7a53-4d80-9f12-6c3e5a8d7041",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-25-dinner-pizza-chicken-yogurt-whey-crunchy",
+  "name": "Cena: pizza fresca de pollo, yogur, whey y Crunchy",
+  "kcal": "1317.2",
+  "fat": "37.6",
+  "protein": "105.2",
+  "carbs": "136.3",
+  "meal": "dinner",
+  "ts": "1795635000000"
+}
