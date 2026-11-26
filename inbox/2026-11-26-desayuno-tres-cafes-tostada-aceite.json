@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "4a81d2e6-7b35-4c90-8f12-6e3a5d7c9041",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-26-breakfast-coffees-toast-oil",
+  "name": "Desayuno: tres cafés con leche, tostada y aceite",
+  "kcal": "503",
+  "fat": "14.4",
+  "protein": "22.8",
+  "carbs": "68.8",
+  "meal": "breakfast",
+  "ts": "1795680000000"
+}
