@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "f6a8c1d3-9b24-4e75-a2c0-6d8f3b1e5079",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-26-lunch-judias-pintas-chorizo-pan",
+  "name": "Comida: judías pintas con chorizo y pan",
+  "kcal": "807",
+  "protein": "35.0",
+  "carbs": "111.1",
+  "fat": "15.8",
+  "meal": "lunch",
+  "ts": "1795698000000"
+}
