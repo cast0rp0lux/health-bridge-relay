@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "7d9a6f42-31b8-4e50-9a7c-2f6d8b1e5043",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-27-breakfast-coffee-napolitanas",
+  "name": "Desayuno: dos cafés con leche entera y 10 galletas Napolitanas",
+  "kcal": "672",
+  "protein": "15.6",
+  "carbs": "82.1",
+  "fat": "30.8",
+  "meal": "breakfast",
+  "ts": "1795766400000"
+}
