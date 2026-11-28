@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1",
+  "operationId": "a94d7c31-5e82-4b60-9f14-3c7a6d2e5081",
+  "operationType": "create",
+  "type": "nutrition",
+  "id": "2026-11-27-dinner-company-snacking-beers-whey",
+  "name": "Cena de empresa: picoteo variado, cerveza 0,0 y whey con leche",
+  "kcal": "1920",
+  "protein": "72",
+  "carbs": "244",
+  "fat": "70",
+  "meal": "dinner",
+  "ts": "1795896000000"
+}
